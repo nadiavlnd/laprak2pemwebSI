@@ -1,0 +1,29 @@
+.nama { /* Nama - teks kuning, background biru */
+    color: yellow; /* warna teks kuning */
+    background-color: blue; /* warna background biru */
+    font-weight: bold; /* mengatur ketebalan huruf yang terdapat dalam nama */ }
+
+#nim { /* NIM - teks biru */
+    color: blue; /* warna teks biru */ }
+
+p span.nama { /* Paragraf pertama - background biru untuk kata "ipsum" */
+    background-color: blue; /* warna background biru */
+    font-style: italic; /* mengatur kemiringan huruf yang terdapat dalam kata "ipsum" */
+    color: yellow; /* warna teks kuning */ }
+
+body > p:first-of-type {  /* memilih paragraf pertama yang langsung berada di dalam elemen <body> */
+    text-align: center;  /* teks rata tengah */ }
+
+.teks2 {  /* mengatur tampilan untuk elemen yang memiliki class 'teks2' */
+    text-align: right;  /* teks rata kanan */ }
+
+.teks2 span { /* Paragraf kedua - background kuning untuk kata "amet" */
+    background-color: yellow; /* warna background kuning */
+    font-style: italic; /* mengatur kemiringan huruf yang terdapat dalam kata "amet" */ }
+
+h3 a { /* mengatur tulisan link dalam h3 */
+    color: black;  /* warna teks hitam */
+    text-decoration: none;  /* menghilangkan underline default */ }
+
+h3 a:hover { /* mengatur gaya saat hover pada link di h3 */
+    text-decoration: underline;  /* menampilkan underline ketika hover */ }
